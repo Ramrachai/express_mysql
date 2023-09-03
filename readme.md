@@ -27,6 +27,20 @@ This API allows you to manage employee data in a MySQL database.
 
 This API allows you to perform CRUD (Create, Read, Update, Delete) operations on employee records in the database. It provides endpoints to manage employee information, including adding new employees, retrieving employee details, updating employee data, and deleting employees.
 
+<strong>Installation </strong>
+  1. Clone the repository: 
+      ~~~ git clone https://github.com/Ramrachai/express_mysql.git ~~~
+  2. install packages: ~~~ npm install ~~~
+  3. create and set environment variables: 
+    ```
+    DATABASE_HOST=""
+    DATABASE_NAME=""
+    DATABASE_USER=""
+    DATABASE_PASSWORD=""
+    DATABASE_PORT=
+    ```
+
+
 **Base URL:** `/api/employee`
 
 
