@@ -29,17 +29,25 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
 
 <strong>Installation </strong>
   1. Clone the repository: 
-      ~~~ git clone https://github.com/Ramrachai/express_mysql.git ~~~
-  2. install packages: ~~~ npm install ~~~
-  3. create and set environment variables: 
-    ```
-    DATABASE_HOST=""
-    DATABASE_NAME=""
-    DATABASE_USER=""
-    DATABASE_PASSWORD=""
-    DATABASE_PORT=
-    ```
-
+      ~~~
+      git clone https://github.com/Ramrachai/express_mysql.git
+      ~~~
+  2. install packages:
+     ~~~
+     npm install
+     ~~~
+  3. create .env and set environment variables to connect with database:
+     ~~~
+      DATABASE_HOST=""
+      DATABASE_NAME=""
+      DATABASE_USER=""
+      DATABASE_PASSWORD=""
+      DATABASE_PORT=""
+     ~~~
+  4. start the server:
+     ~~~
+     npm start
+     ~~~
 
 **Base URL:** `/api/employee`
 
