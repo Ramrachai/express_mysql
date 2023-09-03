@@ -43,6 +43,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
       DATABASE_USER=""
       DATABASE_PASSWORD=""
       DATABASE_PORT=""
+      SERVER_PORT=""
      ~~~
   4. start the server:
      ~~~
