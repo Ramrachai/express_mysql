@@ -108,7 +108,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
   **Request:**
 
   - Method: DELETE
-  - URL: /api/employee/:id
+  - URL: `/api/employee/:id`
   - URL Parameters:
     - id (integer): The unique identifier of the employee.
 
@@ -181,7 +181,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
   **Request:**
 
   - Method: PUT
-  - URL: /api/employee/:id
+  - URL: `/api/employee/:id`
   - URL Parameters:
   - id (integer): The unique identifier of the employee.
   - Request Body (JSON):
