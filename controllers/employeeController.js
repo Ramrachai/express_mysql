@@ -4,6 +4,7 @@ const service = require("../services/employeeService")
 
 router.get("/", async (req,res) => {
     const employees = await service.getAllEmployees()
+    res.cookie("fname", "ramrachai", {maxAge: 5000})
     res.send(employees)
 })
 
